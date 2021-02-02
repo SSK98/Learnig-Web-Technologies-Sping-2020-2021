@@ -1,4 +1,5 @@
 <employees>
+
 	<employee>
 		<id>1</id>
 		<name>John Doe</name>
@@ -6,6 +7,7 @@
 		<department>Sales</department>
 		<salary>$20000</salary>
 	</employee>
+
 	<employee>
 		<id>1</id>
 		<name>Mark Zuckerberg</name>
@@ -13,6 +15,7 @@
 		<department>Accounts</department>
 		<salary>$12000</salary>
 	</employee>
+
 	<employee>
 		<id>3</id>
 		<name>Ala Voski</name>
@@ -20,4 +23,5 @@
 		<department>Human Resource</department>
 		<salary>$30000</salary>
 	</employee>
+	
 </employees>
