@@ -3,14 +3,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Name input</title>
+	<title>Email input</title>
 </head>
 <body>
 
-	<form method="POST" action="nameCheck.php">
+	<form method="POST" action="">
 		<fieldset>
 			<legend>NAME</legend>
-			Name: <input type="text" name="myname" value="">  <br>
+			Name: <input type="Email" name="mail" value="<?php if(isset($_POST['mail'])){ echo $_POST['mail']; }?> ">  <br>
 				<input type="submit" name="submit" value="Submit">
 		</fieldset>
 	</form>
